@@ -1,0 +1,46 @@
+EDUCATION
+Los Andes University January 2009 - December 2012
+BSc Systems and Computing Engineering
+
+PROFESSIONAL EXPERIENCE
+* Seven4n January of 2013 - Present
+ Software Engineer Bogotá, Colombia
+  * I implemented a Business process, a BPEL micro ow and multiple web services mediations.
+  * I took part in the development of a system that orchestrated the consumption of multiple web services using Scala and Akka.
+  * I took part in the development of a REST API and a Single Page Application using the Play framework (using Scala) and using the Ember.js framework.
+  * I took part in the development of an application for the insurance sector using Scala and Angular.js.
+
+* Los Andes University August 2011 - May 2012
+ TA Bogotá, Colombia
+  Teacher assistant for Design and analysis of algorithms.
+ I was in charge of evaluating homeworks and exams and also giving tutorials previous to exams.
+
+ACHIEVEMENTS AND AWARDS
+  * First place in the admission exams for Systems Engineering in the Colombia’s National University
+ (Bogot a, October 2008)
+  * "Quiero estudiar" scolarship for studying Systems and Computing Engineering in Los Andes University
+ (October 2008).
+  * Classiffied to the regional latinoamerican programming contest (ICPC), 2012.
+ 
+COMPLEMENTARY EDUCATION
+  * SCRUM developer (provided by Kleer).
+  * Advanced Akka (provided by Typesafe).
+  * Fulfillment of the online course Software Engineering for Software as a Service taught by professors from Berkeley University at California. April 2012 (Coursera).
+  * Fulfillment of the online course Machine Learning taught by a professor from Stanford University. July 2012 (Coursera).
+  * Fulfillment of the online course Programming Languages taught by a professor of Washington’s University. July 2013 (Coursera).
+
+OPEN SOURCE SOFTWARE CONTRIBUTIONS
+  * Scalaz: Added a new functionality. (https://github.com/scalaz/scalaz/pull/750)
+
+LANGUAGES
+ Spanish: Native Language.
+ 
+TECHNICAL SKILLS
+ Programming Languages
+ (in order of expertise): Scala, Java, Javascript.
+ Web Development: Basic CSS, Angular.js, jQuery, GWT.
+ Enterprise Frameworks: Java EE 6. Spring.
+ Relational Databases: PostgreSQL, Oracle.
+ NoSQL: MongoDB.
+ Testing: ScalaTest, Specs2, Mockito and basic knowledge of ScalaCheck.
+ Versioning Systems: Git, SVN.
