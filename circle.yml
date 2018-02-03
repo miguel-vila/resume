@@ -4,3 +4,4 @@ dependencies:
 test:
   override:
     - pdflatex resume_EN.tex
+    - ls -s
