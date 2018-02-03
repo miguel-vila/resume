@@ -6,8 +6,7 @@ test:
     - pdflatex resume_EN.tex
     - ls -s
     - git clone git@github.com:miguel-vila/miguel-vila.github.io.git
-    - cd miguel-vila.github.io
-    - cp ../resume_EN.pdf ./
-    - git add resume_EN.pdf
-    - git commit -m "resume updated [ci skip]"
-    - git push origin master
+    - mv resume_EN.pdf miguel-vila.github.io/
+    - cd miguel-vila.github.io && git add resume_EN.pdf
+    - cd miguel-vila.github.io && git commit -m "resume updated [ci skip]"
+    - cd miguel-vila.github.io && git push origin master
