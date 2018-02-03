@@ -1,6 +1,6 @@
 dependencies:
   pre:
-    - sudo apt-get install texlive-latex-base
+    - sudo apt-get install texlive-latex-recommended
 test:
   override:
     - pdflatex resume_EN.tex
