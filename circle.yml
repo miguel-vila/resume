@@ -4,7 +4,8 @@ dependencies:
 test:
   override:
     - pdflatex resume_EN.tex
-    - ls -s
+    - git config --global user.email circleci@circleci
+    - git config --global user.name CircleCI
     - git clone git@github.com:miguel-vila/miguel-vila.github.io.git
     - mv resume_EN.pdf miguel-vila.github.io/
     - cd miguel-vila.github.io && git add resume_EN.pdf
