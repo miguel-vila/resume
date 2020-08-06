@@ -5,7 +5,7 @@ jobs:
       - image: cimg/base:2020.01
     steps:
       - run: sudo apt-get update
-      - run: sudo apt-get install texlive-latex-recommended
+      - run: sudo apt-get --assume-yes install texlive-latex-recommended
       - run: pdflatex resume_EN.tex
       - run: git config --global user.email circleci@circleci
       - run: git config --global user.name CircleCI
