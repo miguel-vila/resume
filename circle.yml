@@ -1,13 +1,15 @@
-dependencies:
-  pre:
-    - sudo apt-get install texlive-latex-recommended
-test:
-  override:
-    - pdflatex resume_EN.tex
-    - git config --global user.email circleci@circleci
-    - git config --global user.name CircleCI
-    - git clone git@github.com:miguel-vila/miguel-vila.github.io.git
-    - mv resume_EN.pdf miguel-vila.github.io/
-    - cd miguel-vila.github.io && git add resume_EN.pdf
-    - cd miguel-vila.github.io && git commit -m "resume updated [ci skip]"
-    - cd miguel-vila.github.io && git push origin master
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: cimg/base:2020.01
+    steps:
+      - run: sudo apt-get install texlive-latex-recommended
+      - run: pdflatex resume_EN.tex
+      - run: git config --global user.email circleci@circleci
+      - run: git config --global user.name CircleCI
+      - run: git clone git@github.com:miguel-vila/miguel-vila.github.io.git
+      - run: mv resume_EN.pdf miguel-vila.github.io/
+      - run: cd miguel-vila.github.io && git add resume_EN.pdf
+      - run: cd miguel-vila.github.io && git commit -m "resume updated [ci skip]"
+      - run: cd miguel-vila.github.io && git push origin master
