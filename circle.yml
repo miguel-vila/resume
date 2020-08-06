@@ -4,6 +4,9 @@ jobs:
     docker:
       - image: cimg/base:2020.01
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "6b:bf:69:46:c7:3e:b6:50:29:10:33:44:d1:57:49:a5"
       - checkout
       - run: sudo apt-get update
       - run: sudo apt-get --assume-yes install texlive-latex-recommended
