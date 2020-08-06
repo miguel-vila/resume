@@ -4,6 +4,7 @@ jobs:
     docker:
       - image: cimg/base:2020.01
     steps:
+      - checkout
       - run: sudo apt-get update
       - run: sudo apt-get --assume-yes install texlive-latex-recommended
       - run: pdflatex resume_EN.tex
