@@ -8,6 +8,7 @@ jobs:
           fingerprints:
             - "6b:bf:69:46:c7:3e:b6:50:29:10:33:44:d1:57:49:a5"
             - "00:7e:cb:53:3e:b5:0d:74:0a:5d:61:45:02:b8:ec:71"
+            - "f1:2b:28:6e:f9:2d:9a:92:69:14:6b:bf:9d:09:a1:8c"
       - checkout
       - run: sudo apt-get update
       - run: sudo apt-get --assume-yes install texlive-latex-recommended
