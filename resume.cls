@@ -100,6 +100,22 @@
   \end{list}
 }
 
+\newenvironment{rList}{
+  \begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+    \itemsep -0.25em \vspace{-0.25em} % Compress items in list together for aesthetics 
+}{
+\end{list}
+%  \vspace{0.5em} % Some space after the list of bullet points
+}
+
+\newenvironment{rSublist}{
+  \begin{list}{$\cdot$}{\leftmargin=1em} % \cdot used for bullets, no indentation
+    \itemsep -0.25em \vspace{-0.25em} % Compress items in list together for aesthetics 
+}{
+\end{list}
+%  \vspace{0.5em} % Some space after the list of bullet points
+}
+
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE FORMATTING
 %----------------------------------------------------------------------------------------
@@ -110,11 +126,7 @@
   \\
   {\em #3} \hfill {\em #4} % Italic job title and location
   }\smallskip
-  \begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
-   \itemsep -0.25em \vspace{-0.25em} % Compress items in list together for aesthetics
   }{
-  \end{list}
-%  \vspace{0.5em} % Some space after the list of bullet points
 }
 
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
